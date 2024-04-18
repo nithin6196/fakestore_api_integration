@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
           create: (context) => HomeScreenController(),
         )
       ],
-      child: MaterialApp(
+      child: const MaterialApp(
         home: HomeScreen(),
       ),
     );
